@@ -1,0 +1,43 @@
+import React from 'react';
+import { 
+  AlertOctagon, 
+  CheckCircle2, 
+  Clock, 
+  Activity, 
+  Smartphone, 
+  Users, 
+  Filter, 
+  Search,
+  ChevronRight,
+  ChevronDown,
+  ArrowUpRight,
+  Calendar,
+  Layers,
+  Terminal,
+  XCircle,
+  RotateCcw,
+  MessageSquare,
+  Plus
+} from 'lucide-react';
+
+export const Icons = {
+  Regression: ({ className }: { className?: string }) => <RotateCcw className={className} />,
+  Crash: ({ className }: { className?: string }) => <AlertOctagon className={className} />,
+  Check: ({ className }: { className?: string }) => <CheckCircle2 className={className} />,
+  New: ({ className }: { className?: string }) => <Activity className={className} />,
+  Time: ({ className }: { className?: string }) => <Clock className={className} />,
+  Device: ({ className }: { className?: string }) => <Smartphone className={className} />,
+  Users: ({ className }: { className?: string }) => <Users className={className} />,
+  Filter: ({ className }: { className?: string }) => <Filter className={className} />,
+  Search: ({ className }: { className?: string }) => <Search className={className} />,
+  ChevronRight: ({ className }: { className?: string }) => <ChevronRight className={className} />,
+  ChevronDown: ({ className }: { className?: string }) => <ChevronDown className={className} />,
+  External: ({ className }: { className?: string }) => <ArrowUpRight className={className} />,
+  Calendar: ({ className }: { className?: string }) => <Calendar className={className} />,
+  Stack: ({ className }: { className?: string }) => <Layers className={className} />,
+  Layers: ({ className }: { className?: string }) => <Layers className={className} />,
+  Code: ({ className }: { className?: string }) => <Terminal className={className} />,
+  Close: ({ className }: { className?: string }) => <XCircle className={className} />,
+  Note: ({ className }: { className?: string }) => <MessageSquare className={className} />,
+  Plus: ({ className }: { className?: string }) => <Plus className={className} />,
+};

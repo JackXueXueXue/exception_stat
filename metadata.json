@@ -1,0 +1,5 @@
+{
+  "name": "CrashSight",
+  "description": "A professional crash reporting dashboard similar to Firebase Crashlytics. Features hierarchical grouping of issues, detailed stack trace analysis, version tracking, and regression detection.",
+  "requestFramePermissions": []
+}
